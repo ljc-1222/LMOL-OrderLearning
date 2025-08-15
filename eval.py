@@ -33,7 +33,7 @@ from PIL import Image
 from transformers import AutoTokenizer
 from torchvision import transforms
 
-from updated_datasets.scut_fbp_dataset import SCUTFBPDataset
+from datasets.scut_fbp_dataset import SCUTFBPDataset
 from models.lmol_model import LMOLModel
 
 
