@@ -1,1 +1,18 @@
-# LMOL configuration file (currently empty; add parameters as needed).
+# LMOL configuration file.
+{
+  "vision_model_name": "openai/clip-vit-large-patch14-336",
+  "llm_model_name": "lmsys/vicuna-7b-v1.5",
+  "num_epochs": 1,
+  "train_batch_size": 4,
+  "lr_proj": 2e-5,
+  "lr_lora": 2e-4,
+  "theta": 0.2,
+  "M": 30000,
+  "root_dir": "data/SCUT-FBP5500",
+  "score_interval": 0.1,
+  "max_reference_per_bin": 10,
+  "bt_delta": 0.1,
+  "bt_k": 1.0,
+  "bt_score_min": 1.0,
+  "bt_score_max": 5.0
+}
